@@ -194,7 +194,7 @@ nav a:hover
 
 .title-font{
 	margin: 0em 0.5em;
-	font-size: 3em;
+	font-size: 6em;
 	padding-top: 0;
 }
 
@@ -232,7 +232,7 @@ nav a:hover
 }
 
 #aboutus .content-wrap p{
-	font-size: 1.5em;
+	font-size: 3em;
 	padding: 0em 2em;
 }
 
@@ -255,7 +255,7 @@ nav a:hover
 #ourteam ul{
 	list-style: none;
 	margin: 0;
-	padding-left: 40%;
+	padding-left: 20%;
 }
 
 #ourteam li{
@@ -266,8 +266,13 @@ nav a:hover
 	display: inline-block;
 }
 
+.card-title{
+	font-size: 3em;
+}
+
 .card-content{
 	padding: 1.5em;
+	font-size: 3em;
 }
 
 /* LABS */
@@ -295,6 +300,7 @@ nav a:hover
 .project-card-content{
 	color: #ededed;
 	background-color: #3fadab;
+	font-size: 3em;
 }
 
 #projects .content-wrap{
@@ -308,11 +314,15 @@ nav a:hover
 
 #projects ul{
 	list-style: none;
-	padding-left: 40%;
+	padding-left:35%;
 }
 
 #projects{
 	margin-top: 2em;
+}
+
+.project-card-title{
+	font-size: 3em;
 }
 
 /* Contact Us */
