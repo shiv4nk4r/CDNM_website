@@ -42,8 +42,12 @@ section{
   overflow: hidden;
 }
 
-#nav-bar li {
+#nav-bar #right {
   float: right;
+}
+
+#nav-bar #left {
+  float: left;
 }
 
 #nav-bar #logo{
