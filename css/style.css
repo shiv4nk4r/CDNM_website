@@ -19,12 +19,6 @@ h2,h3{
 
 /* Menu HamBurger */
 
-nav{
-	height: 120px;
-	width: 100%;
-	background-color: #3fadab;
-}
-
 nav a
 {
   text-decoration: none;
@@ -79,7 +73,7 @@ nav a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: #ededed;
+  background: #3fadab;
   border-radius: 3px;
   
   z-index: 1;
