@@ -3,7 +3,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	width: 100%;
 	font-family: 'Roboto', sans-serif;
 	color: #2d3436;
 }
@@ -255,7 +254,7 @@ nav a:hover
 #ourteam ul{
 	list-style: none;
 	margin: 0;
-	padding-left: 40%;
+	padding-left: 30%;
 }
 
 #ourteam li{
@@ -308,18 +307,10 @@ nav a:hover
 
 #projects ul{
 	list-style: none;
-	padding-left: 40%;
-}
-
-#projects{
-	margin-top: 2em;
+	padding-left: 30%;
 }
 
 /* Contact Us */
-
-#contactus{
-	margin-top: 2em;
-}
 
 #contactus .maps{
 	width: 100%;
