@@ -337,3 +337,7 @@ nav a:hover
 	float: left;
 	margin-top: 2em;
 }
+
+@media(min-width: 700px){
+	body{display: none;}
+}
