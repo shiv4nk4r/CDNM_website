@@ -707,15 +707,15 @@ html {
 }
 
 .content{
-  padding: 0px 5px;
+  padding-left: 5%;
   display: block;
   z-index: 7;
   max-height: 0;
   width: 90%;
   margin-left: 2%;
   overflow: hidden;
+  font-size: 0.7vw;
   color: #2d3436;
-  font-size: 0.9em; 
     transition: max-height 0.2s ease-out;
 }
 
