@@ -681,7 +681,7 @@ html {
 }
 
 .member{
-  flex-basis: 30%;
+  flex-basis: 33%;
   height: 80%;
 }
 
@@ -717,9 +717,8 @@ html {
   width: 90%;
   margin-left: 2%;
   overflow: hidden;
-  color: #ededed;
-  font-size: 0.9em;
-  background-color:#22527b; 
+  color: #2d3436;
+  font-size: 0.9em; 
     transition: max-height 0.2s ease-out;
 }
 
