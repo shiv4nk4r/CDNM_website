@@ -88,7 +88,7 @@ section{
 
 #project{
   background-image: url("../images/Labs.png");
-  background-size:100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -299,7 +299,7 @@ section{
 }
 .slider__nav {
   width: 1%;
-  height: 2%;
+  height: 1%;
   margin: 0rem 12px;
   border-radius: 50%;
   z-index: 10;
@@ -700,7 +700,6 @@ html {
   height: 20%;
   flex: 3;
   display: flex;
-  cursor: pointer;
   align-items: center;
   justify-content: space-around;
 }
