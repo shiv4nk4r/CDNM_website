@@ -37,7 +37,6 @@
 		    but hey, it's pure CSS magic.
 		    -->
 		    <ul id="menu">
-		      <a href="#nav-bar"><li><font style="font-size: 1.6vw;">LOGO</font></li></a>
 		      <a href="#aboutus"><li>About Us</li></a>
 		      <a href="#ourmission"><li>Our Mission</li></a>
 		      <a href="#teammenu"><li>Our Team</li></a>
@@ -48,16 +47,20 @@
 		  </div>
 		</nav>
 	</header>
-	<div id="nav-bar" style="color: #ecf0f1; font-size: 20px;line-height: 2.6em;">
-		<ul style="width: 100%;">
-			<li id="right"><a href="#footer-item">Contact Us</a></li>
-			<li id="right"><a href="#projectmenu">Projects</a></li>
-			<li id="right"><a href="#labmenu">Labs</a></li>
-			<li id="right"><a href="#teammenu">Our Team</a></li>
-			<li id="right"><a href="#ourmission">Our Mission</a></li>
-		  	<li id="right"><a href="#aboutus">About Us</a></li>
-		  	<li style="font-size: 30px; margin-left: 2%; z-index: 10;" id="left"><a href="">LOGO</a></li>
-		</ul>
+	<div id="nav-bar"">
+		<div style="display: flex;align-items: center;">
+			<div style="width: 40%;height: 100%;">
+				<a href="" style=""><img src="logos/logo.png" style="width: 80%;z-index: 99;"></a>
+			</div>
+			<ul style="width: 100%;">
+				<li id="right"><a href="#footer-item">Contact Us</a></li>
+				<li id="right"><a href="#projectmenu">Projects</a></li>
+				<li id="right"><a href="#labmenu">Labs</a></li>
+				<li id="right"><a href="#teammenu">Our Team</a></li>
+				<li id="right"><a href="#ourmission">Our Mission</a></li>
+			  	<li id="right"><a href="#aboutus">About Us</a></li>
+			</ul>
+		</div>
 	</div>
 	<section id="home">
 		
@@ -736,7 +739,8 @@ Ojaswa Sharma completed his Ph.D. in Mathematics and Computer Science from the T
 				</div>
 			</div>
 		</div>
-		
+		</section>
+	 <a href="#0" class="cd-top js-cd-top">Top</a>
 
 	<script>
 		var slideIndex = 1;
@@ -798,7 +802,7 @@ Ojaswa Sharma completed his Ph.D. in Mathematics and Computer Science from the T
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8A0kj3LhwnFY1k8W_E3gRaTEB4SvNIUs&callback=myMap"></script>
 
-
+	<script type="text/javascript" src="js/main2.js"></script>>
 	<script>
 	var coll = document.getElementsByClassName("collapsible");
 	var i;
