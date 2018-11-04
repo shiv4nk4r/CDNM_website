@@ -16,9 +16,20 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
 <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+		window.addEventListener("scroll",function(){
+		  var target = document.getElementsByTagName('header');
+		  if(window.pageYOffset > 500){
+		   target[0].style.display = "block"; 
+		  }
+		  else if(window.pageYOffset < 500){
+		    target[0].style.display = "none";
+		  }
+		},false);
+	</script>
 </head>
 <body>
-	<header>
+	<header id="dvid">
 		<nav role="navigation" style="height: 100%;color: #ededed;">
 		  <div id="menuToggle">
 		    <!--
@@ -70,7 +81,7 @@
 	<section id="home">
 		
 	</section>
-	<div>
+	<div id="othdiv">
 	</div>
 	<section id="aboutus" style="height: auto;padding: 5% 0%">
 		<div class="title-left">
@@ -723,8 +734,8 @@ Ojaswa Sharma completed his Ph.D. in Mathematics and Computer Science from the T
 	<div id="contactlast" style="width: 100%;height: 10vh;"></div>
 	<section style="height: auto;display: inline-block;">
 		<div style="margin-left: 25%;">
-			<div id="googleMap" style="width:40%;height:38.4vh;float: left;"></div>
-			<div style="float: left; width: 20%;height: 38.4vh;background-color: #3fadab; padding: 0px 1%;">
+			<div id="googleMap" style="width:40%;height:45vh;float: left;"></div>
+			<div style="float: left; width: 20%;height: 45vh;background-color: #3fadab; padding: 0px 1%;">
 					<center><font style="font-size: 2vw;color: #ecf0f1;margin-top: 20%;">Address<br></font></center>
 					<font style="color: #ecf0f1;font-size: 0.8vw"><br>Okhla Industrial Estate, <br>Phase III, Near Govind Puri Metro Station, New Delhi, Delhi 110020</font>
 					<font style="color: #ecf0f1;font-size: 0.8vw"><br><br>Proceed to the New Academic Block and go to the 4th floor. You will then reach The Center For Design And New Media</font>
@@ -750,6 +761,9 @@ Ojaswa Sharma completed his Ph.D. in Mathematics and Computer Science from the T
       </div>
       <div class="col-md-3 col-sm-6">
         <!--Column1-->
+          <div class="footer-pad">
+          	<img src="logos/logo.png" style="width: 100%;">
+        </div>
       </div>
     	<div class="col-md-3" style="text-align: right;">
     		<h4>Follow Us</h4>
@@ -828,7 +842,7 @@ Ojaswa Sharma completed his Ph.D. in Mathematics and Computer Science from the T
 		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 		}
 	</script>
-
+	
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8A0kj3LhwnFY1k8W_E3gRaTEB4SvNIUs&callback=myMap"></script>
 
 	<script type="text/javascript" src="js/main2.js"></script>
