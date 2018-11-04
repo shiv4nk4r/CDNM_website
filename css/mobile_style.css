@@ -401,5 +401,6 @@ nav a:hover
 }
 
 .carousel-cell{
-	
+	height: 300px;
+	width: 50%;
 }
