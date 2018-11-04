@@ -380,3 +380,22 @@ nav a:hover
     font-size: 3vw;
     outline: none;
 }
+
+.lab-disp{
+	display: flex;
+	padding: 10% 0%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.lab-container{
+	width: 80%;
+}
+
+.image{
+	width: 60%;
+}
+
+.spaces{
+	padding: 10% 0;
+}
