@@ -69,9 +69,9 @@ section{
 
 #aboutus{
   background-image: url("../images/AboutsUs.png");
-  background-size:auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
 }
 
 #Team{
