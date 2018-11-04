@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<title>Center For Design And New Media</title>
 	<link rel="stylesheet" type="text/css" href="css/desktop_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -35,6 +39,7 @@
 		    <ul id="menu">
 		      <a href="#nav-bar"><li><font style="font-size: 1.6vw;">LOGO</font></li></a>
 		      <a href="#aboutus"><li>About Us</li></a>
+		      <a href="#ourmission"><li>Our Mission</li></a>
 		      <a href="#teammenu"><li>Our Team</li></a>
 		      <a href="#labmenu"><li>Labs</li></a>
 		      <a href="#projectmenu"><li>Projects</li></a>
@@ -63,45 +68,115 @@
 			<img src="images/elements/item_1.png" style="width: 8%;">
 			<font style="font-size: 2.2vw; line-height: 2;">About Us</font>
 		</div>
-		
-		<div style="width: 40%;" id="aboutdiv">
-			<div class="slider">
-				  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-				  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-				  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-				  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
-				  <div class="slider__inner">
-				    <div class="slider__contents">
-				      <img src="sample/pic1.jpg" style="width: 80%;">
-				    </div>
-				    <div class="slider__contents">
-				      <img src="sample/pic2.jpg" style="width: 80%;">
-				    </div>
-				    <div class="slider__contents">
-				      <img src="sample/pic3.jpg" style="width: 80%;">
-				    </div>
-				    <div class="slider__contents">
-				      <img src="sample/pic4.jpg" style="width: 80%;">
-				    </div>
-				  </div>
-				</div>
-		</div>
+		<div style="width: 100%;height: 5%;"></div>
+		<div style="width: 100%;height:100%;" class="aboutthe">
+			<div style="flex: 1;"></div>
+			<div style="flex: 2;" class="slide-show" style="">
+				<div id="demo" class="carousel slide" data-ride="carousel">
 
-		<div  id="aboutdiv">
-			<div style="vertical-align: middle;display: table-cell;height: 80%;">
-				<div style="display: inline-block;font-size: 1.05vw;padding: 18%; padding-top: 9%; padding-left: 10%;">
-					With an increased focus on user experiences and interfaces in the world, the importance of HCI, Interaction Design, and Design Thinking have also increased rapidly in IT-based products and services. New and Digital media is at the heart of many aspects of design, as well as areas like social media, gaming, and virtual/augmented reality.
-					<p>
-					<p>
-As a result, IIIT Delhi has, in conjunction with TCS, decided to open the Centre for Design and New Media, a Research Centre dedicated to working on leading research and emerging areas of Design and New Media. This Centre is headed by leading researchers and experts from around the world and regularly works with people in the industry to learn about the developments in these fields. To learn more about the people who are a part of this Centre, Click Here!
-
-
-				</div>
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="sample/pic2.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="sample/pic1.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="sample/pic3.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 			</div>
-			
+			<div style="flex: 2;" class="text-box">
+				<p>
+					With an increased focus on user experiences and interfaces in the world, the importance of HCI, Interaction Design, and Design Thinking have also increased rapidly in IT-based products and services. New and Digital media is at the heart of many aspects of design, as well as areas like social media, gaming, and virtual/augmented reality.<p>
+						<br>
+As a result, IIIT Delhi has, in conjunction with TCS, decided to open the Centre for Design and New Media, a Research Centre dedicated to working on leading research and emerging areas of Design and New Media. This Centre is headed by leading researchers and experts from around the world and regularly works with people in the industry to learn about the developments in these fields. To learn more about the people who are a part of this Centre, <a href="#teammenu" style="color: #3fadab;"><strong>Click Here!</strong></a>
+				</p>
+			</div>
+			<div style="flex: 1;"></div>
 		</div>
 		
 	</section>
+
+	<section id="ourmission" style="height: 80vh;">
+		<div class="title-left">
+			<img src="images/elements/item_1.png" style="width: 8%;">
+			<font style="font-size: 2.2vw; line-height: 2;">Our Mission</font>
+		</div>
+		<div style="width: 100%;height: 5%;"></div>
+		<div style="width: 100%;width: 100%;" class="aboutthe">
+			<div style="flex: 1;"></div>
+			<div style="flex: 2;" class="text-box" style="padding:0% 10%;">
+				<p>
+					CDNM’s Mission consists of three main goals -  
+					<br>
+<br>
+1) Have a world-class research program in different aspects of Design and New Media
+<br>
+<br>
+2) Develop the next generation of engineers for industry sectors like IT product/services design, animation, gaming, virtual reality, etc.
+<br>
+<br>
+3) Engage actively with industrial partners for collaborative innovation and for strengthening the ecosystem in the country in these fields.
+<br>
+<br>
+The Centre will also choose some domains/sectors to which it can apply the results of its efforts and R&D. Initially, the domain areas are Education, Healthcare, Transportation, and Digital Governance. For such domains the Centre will work closely with social bodies such as NGOs, Schools, Hospitals, etc. to co-create innovative design and media solutions for existing problems.
+				</p>
+			</div>
+			<div style="flex: 2;" class="slide-show2" style="margin-left: 10%;">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="sample/pic2.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="sample/pic1.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="sample/pic3.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+			</div>
+			<div style="flex: 1;"></div>
+		</div>
+		
+	</section>
+
 	<div>
 	</div>
 	<section id="Team" style="height: auto;">
@@ -382,6 +457,95 @@ Former Director, Environment and Sociology, at the National Water Academy, Khada
 					</div>
 				</div>
 			</div>
+						<div class="row">
+				<div class="member" style="display: none;">
+					<div class="card">
+						<div class="card-display">
+							<div style="flex:2; height: 80%;">
+								<div style="margin: 0% 10%;flex:3;">
+									<font style="font-size: 1.6vw;color: #3fadab;">
+										Vibha Narula Gupta	
+									</font>
+									<br>
+									<font style="font-size: 1vw;color: #2d3436">
+										Assistant Professor (DES, CSE)
+									</font>
+								</div>
+							</div>
+							<div style="flex:1;height: 100%;">
+								 <img style="width: 90%;" src="faculty/aman.jpg">
+							</div>
+						</div>
+						<div class="card-cont">
+								<button class="collapsible" style="margin: 0% 7%;">
+									Read More
+								</button>
+								<div class="content">
+PhD (2017) Human-Computer Interaction with a minor in Industrial Design, Georgia Institute of Technology.<br>
+Aman Parnami recently received a PhD in Human-Computer Interaction with a minor in Industrial Design from the Georgia Institute of Technology. He also has a Masters in HCI from the same institute and a dual degree in CSE from IIT Bombay. His research interests include the development of rapid prototyping tools for novel wearable interactions and devices and he is also involved in the design of constructionist learning environments for CS courses.
+							</div>
+							</div>
+					</div>
+				</div>
+				<div class="member">
+					<div class="card">
+						<div class="card-display">
+							<div style="flex:2; height: 80%;">
+								<div style="margin: 0% 10%;flex:3;">
+									<font style="font-size: 1.6vw;color: #3fadab;">
+										Vibha Narula Gupta
+									</font>
+									<br>
+									<font style="font-size: 1vw;color: #2d3436">
+										Visiting Faculty
+									</font>
+								</div>
+							</div>
+							<div style="flex:1;height: 100%;">
+								 <img style="width: 90%;" src="faculty/vibha.png">
+							</div>
+						</div>
+						<div class="card-cont">
+								<button class="collapsible" style="margin-top: 0%; margin: 0% 7%;">
+									Read More
+								</button>
+								<div class="content">
+									PhD (per.), Design Education in 21st Century India, IIT, Mumbai<br><br> Indrani De Parker is an alumnus of the National Institute of Design (NID), Ahmedabad. She is a communication designer and design educator.
+							</div>
+							</div>
+					</div>
+				</div>
+				<div class="member" style="display: none;">
+					<div class="card">
+						<div class="card-display">
+							<div style="flex:2; height: 80%;">
+								<div style="margin: 0% 10%;flex:3;">
+									<font style="font-size: 1.6vw;color: #3fadab;">
+										Ojaswa Sharma
+									</font>
+									<br>
+									<font style="font-size: 1vw;color: #2d3436">
+										Assistant Professor (CSE)
+									</font>
+								</div>
+							</div>
+							<div style="flex:1;height: 100%;">
+								 <img style="width: 90%;" src="faculty/ojaswa.jpg">
+							</div>
+						</div>
+						<div class="card-cont">
+								<button class="collapsible" style="margin-top: 0%; margin: 0% 7%;">
+									Read More
+								</button>
+								<div class="content">
+								
+PhD (2010), Mathematics and Computer Science, Technical University of Denmark<br>
+Ojaswa Sharma completed his Ph.D. in Mathematics and Computer Science from the Technical University of Denmark, Denmark in 2010. He received his masters degree in Geomatics Engineering from the University of New Brunswick, Canada in 2006, and bachelors degree in Civil Engineering from the Indian Institute of Technology (IIT) at Roorkee, India in 2003. He has more than four years of experience with corporate R&D. His research spans various aspects of computer graphics, and computational geometry.
+							</div>
+							</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		</center>
 	</section>
@@ -391,22 +555,73 @@ Former Director, Environment and Sociology, at the National Water Academy, Khada
 		<br>
 		<div id="labmenu" class="title-left">
 			<img src="images/elements/item_1.png" style="width: 9%;">
-			<font style="font-size: 2.2vw; line-height: 2;">Labs</font>
+			<font style="font-size: 2.2vw;">Labs</font>
 		</div>
 		
 		<div class="labcontainer">
 			<div class="rowholder">
 				<div>
+					<center>
+						<div class="image-container">
+						  <img src="logos/1.png" alt="Avatar" class="image">
+						</div>
+						<button class="collapsible" style="font-size: 1.1vw">GRIT</button>
+						<div class="content" style="padding: 0% 20%;text-align: left;">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</center>
 				</div>
 				<div>
+					<center>
+						<div class="image-container2">
+						  <img src="logos/5.png" alt="Avatar" class="image">
+						</div>
+						<button class="collapsible" style="font-size: 1.1vw;">GRG</button>
+						<div class="content" style="padding: 0% 20%;text-align: left;">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</center>
 				</div>
 				<div>
+					<center>
+						<div class="image-container">
+						  <img src="logos/3.png" alt="Avatar" class="image">
+						</div>
+						<button class="collapsible" style="font-size: 1.1vw;">MIDAS</button>
+						<div class="content" style="padding: 0% 20%;text-align: left;">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</center>
 				</div>
 			</div>
 			<div class="rowholder">
-				<div>
+				<div  style="flex:1;">
+					
 				</div>
-				<div>
+				<div  style="flex:2;">
+					<center>
+						<div class="image-container">
+						  <img src="logos/4.png" alt="Avatar" class="image">
+						</div>
+						<button class="collapsible"style="font-size: 1.1vw;">WEAVE</button>
+						<div class="content" style="padding: 0% 20%;text-align: left;">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</center>
+				</div>
+				<div  style="flex:2;">
+					<center>
+						<div class="image-container">
+						  <img src="logos/2.png" alt="Avatar" class="image">
+						</div>
+						<button class="collapsible"style="font-size: 1.1vw;">ILIAD</button>
+						<div class="content" style="padding: 0% 20%;text-align: left;">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</center>
+				</div>
+				<div  style="flex:1;">
+					
 				</div>
 			</div>
 		</div>
@@ -469,7 +684,7 @@ Former Director, Environment and Sociology, at the National Water Academy, Khada
     </div>
         <div class="carousel-cell">
     	<img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" />
-      <h3>Product 6</h3>
+      <h3>Product 6 </h3>
       <a class="more" >Explore more</a>
       <div class="line"></div>
       <div class="price">
