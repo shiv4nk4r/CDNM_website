@@ -236,6 +236,16 @@ nav a:hover
 	padding: 4em 5em;
 }
 
+#ourvision .content-wrap{
+	padding: 4em 5em;
+}
+
+#ourvision .content-wrap p{
+	font-size: 3vw;
+	text-align: left;
+	padding: 0em 2em;
+}
+
 #aboutus .content-wrap p{
 	font-size: 3vw;
 	text-align: left;
