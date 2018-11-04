@@ -169,12 +169,13 @@ nav a:hover
 /* BANNER STARTS */
 
 .banner{
-	background-image: url("../images/banner_mobile.png");
+	background-image: url("../bannermob.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	width: 100%;
 	min-height: 300px;
+	height: 90vh;
 	margin: 2em 0em
 }
 
