@@ -947,6 +947,7 @@ html {
   white-space: nowrap;
   background: #34adab;
   background-image: url("../images/top/top.png");
+  background-repeat: no-repeat;
   background-position: center;
   visibility: hidden;
   opacity: 0;
