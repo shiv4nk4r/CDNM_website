@@ -338,3 +338,45 @@ nav a:hover
 	float: left;
 	margin-top: 2em;
 }
+
+.member{
+	margin: 2% 0%;
+	width: 80%;
+	height: 50%;
+	text-align: left;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.display{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.member .card-content{
+	width: 100%;
+	text-align: left;
+	padding: 0;
+	align-content: left;
+}
+
+.content {
+  font-size: 2.5vw;
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible{
+	background-color: white;
+    color: #3fadab;
+    cursor: pointer;
+    border: none;
+    left: 0;
+    font-size: 3vw;
+    outline: none;
+}
